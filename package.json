@@ -1,0 +1,25 @@
+{
+  "name": "auto-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "testcafe \"chrome:emulation:device=iphone X\"",
+    "start:mobile": "testcafe remote --qr-code",
+    "debug": "testcafe --inspect-brk"
+  },
+  "dependencies": {
+    "testcafe": "^1.10.0",
+    "testcafe-react-selectors": "^4.1.4"
+  },
+  "devDependencies": {
+    "cypress": "^6.2.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "prettier": "^2.2.1"
+  }
+}

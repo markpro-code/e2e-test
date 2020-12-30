@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "plugin:node/recommended", "prettier"],
+  "plugins": ["testcafe", "prettier"],
+  "env": {
+    "node": true,
+    "commonjs": true
+  },
+
+  "globals": {
+    "fixture": "readonly",
+    "test": "readonly"
+  },
+
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
